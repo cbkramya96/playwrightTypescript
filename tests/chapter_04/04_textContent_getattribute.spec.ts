@@ -13,8 +13,10 @@ test.describe("getText and getAttribute value in playwright", () => {
     const name = await page.locator("//h5[normalize-space()='Login']").textContent();
     const finalName=name?.trim();
     expect(finalName).toBe("Login")
+    expect(finalName).toBe("Logintesting")
     console.log(`name is, ${name}`);
     console.log(`name is, ${finalName}`);
+    //console.log(`name is`);
 
     await page.getByPlaceholder("Username");
   });
