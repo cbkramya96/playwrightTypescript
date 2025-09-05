@@ -6,6 +6,7 @@ for (const searchKeyword of searchKeywords){
 test(`parameterized tests in playwright ${searchKeyword}`,async({page})=>{
 //go to url
 await page.goto("https://www.google.com")
+console.log("parameter")
 //search with keyword
 await page.getByRole('combobox', { name: 'Search' }).fill(searchKeyword)
 await page.getByRole('combobox', { name: 'Search' }).press('Enter')

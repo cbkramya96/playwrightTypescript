@@ -22,6 +22,7 @@ test('test case---2', async ({ page }) => {
 
 test('test case---3', async ({ page }) => {
     console.log("test-2 execution started")
+        console.log("retry test cases---")
   await expect(page.locator("//p[normalize-space()='OrangeHRM OS 5.7']")).toBeVisible();
   await expect(page.locator("//p[normalize-space()='OrangeHRM OS 5.7']")).toHaveText("OrangeHRM OS 5.7");
 });
