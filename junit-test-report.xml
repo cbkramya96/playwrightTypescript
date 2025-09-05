@@ -1,0 +1,77 @@
+<testsuites id="" name="" tests="4" failures="1" skipped="0" errors="0" time="33.852698">
+<testsuite name="chapter_04\03_testreports.spec.ts" timestamp="2025-08-30T15:06:34.418Z" hostname="chromium" tests="4" failures="1" skipped="0" time="46.846" errors="0">
+<testcase name="smokeTesting › test case---1" classname="chapter_04\03_testreports.spec.ts" time="12.675">
+<system-out>
+<![CDATA[runing before each test case..
+test-1 execution started
+
+[[ATTACHMENT|C:\PlaywrightResults\chapter_04-03_testreports-smokeTesting-test-case---1-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="regressionTesting › test case---2" classname="chapter_04\03_testreports.spec.ts" time="13.013">
+<system-out>
+<![CDATA[runing before each test case..
+test-2 execution started
+
+[[ATTACHMENT|C:\PlaywrightResults\chapter_04-03_testreports-regressionTesting-test-case---2-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="regressionTesting › test case---3" classname="chapter_04\03_testreports.spec.ts" time="8.227">
+<system-out>
+<![CDATA[runing before each test case..
+test-2 execution started
+
+[[ATTACHMENT|C:\PlaywrightResults\chapter_04-03_testreports-regressionTesting-test-case---3-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="regressionTesting › test case---4" classname="chapter_04\03_testreports.spec.ts" time="12.931">
+<failure message="03_testreports.spec.ts:29:5 test case---4" type="FAILURE">
+<![CDATA[  [chromium] › chapter_04\03_testreports.spec.ts:29:5 › regressionTesting › test case---4 ──────────
+
+    Error: Timed out 5000ms waiting for expect(locator).toHaveText(expected)
+
+    Locator: locator('//p[normalize-space()=\'OrangeHRM OS 5.7\']')
+    Expected string: "OrangeHRM OS 5.7wwwwwww"
+    Received string: "OrangeHRM OS 5.7"
+    Call log:
+      - Expect "toHaveText" with timeout 5000ms
+      - waiting for locator('//p[normalize-space()=\'OrangeHRM OS 5.7\']')
+        8 × locator resolved to <p data-v-7b563373="" class="oxd-text oxd-text--p orangehrm-copyright">OrangeHRM OS 5.7</p>
+          - unexpected value "OrangeHRM OS 5.7"
+
+
+      30 |     console.log("test-2 execution started")
+      31 |   await expect(page.locator("//p[normalize-space()='OrangeHRM OS 5.7']")).toBeVisible();
+    > 32 |   await expect(page.locator("//p[normalize-space()='OrangeHRM OS 5.7']")).toHaveText("OrangeHRM OS 5.7wwwwwww");
+         |                                                                           ^
+      33 | });
+      34 | })
+      35 |
+        at F:\interview_preparation\Playwright\tests\chapter_04\03_testreports.spec.ts:32:75
+
+    Error Context: C:\PlaywrightResults\chapter_04-03_testreports-regressionTesting-test-case---4-chromium\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    C:\PlaywrightResults\chapter_04-03_testreports-regressionTesting-test-case---4-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace C:\PlaywrightResults\chapter_04-03_testreports-regressionTesting-test-case---4-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[runing before each test case..
+test-2 execution started
+
+[[ATTACHMENT|C:\PlaywrightResults\chapter_04-03_testreports-regressionTesting-test-case---4-chromium\error-context.md]]
+
+[[ATTACHMENT|C:\PlaywrightResults\chapter_04-03_testreports-regressionTesting-test-case---4-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

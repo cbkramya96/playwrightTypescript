@@ -1,0 +1,322 @@
+{
+  "config": {
+    "configFile": "F:\\interview_preparation\\Playwright\\playwright.config.ts",
+    "rootDir": "F:/interview_preparation/Playwright/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "json-test-report.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "junit-test-report.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/PlaywrightResults",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "F:/interview_preparation/Playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 500000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.53.2",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "chapter_04\\03_testreports.spec.ts",
+      "file": "chapter_04/03_testreports.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "smokeTesting",
+          "file": "chapter_04/03_testreports.spec.ts",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "test case---1",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12675,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "runing before each test case..\n"
+                        },
+                        {
+                          "text": "test-1 execution started\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-30T15:06:38.859Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\PlaywrightResults\\chapter_04-03_testreports-smokeTesting-test-case---1-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0e3e9c780be37253158e-054eb3f6d39bc605e42c",
+              "file": "chapter_04/03_testreports.spec.ts",
+              "line": 9,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "regressionTesting",
+          "file": "chapter_04/03_testreports.spec.ts",
+          "line": 16,
+          "column": 6,
+          "specs": [
+            {
+              "title": "test case---2",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 13013,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "runing before each test case..\n"
+                        },
+                        {
+                          "text": "test-2 execution started\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-30T15:06:38.832Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\PlaywrightResults\\chapter_04-03_testreports-regressionTesting-test-case---2-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0e3e9c780be37253158e-78058e2c69ed33c8d719",
+              "file": "chapter_04/03_testreports.spec.ts",
+              "line": 17,
+              "column": 5
+            },
+            {
+              "title": "test case---3",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8227,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "runing before each test case..\n"
+                        },
+                        {
+                          "text": "test-2 execution started\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-30T15:06:53.159Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\PlaywrightResults\\chapter_04-03_testreports-regressionTesting-test-case---3-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0e3e9c780be37253158e-e0ed6a4cfe45c5320b13",
+              "file": "chapter_04/03_testreports.spec.ts",
+              "line": 23,
+              "column": 5
+            },
+            {
+              "title": "test case---4",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 12931,
+                      "error": {
+                        "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('//p[normalize-space()=\\'OrangeHRM OS 5.7\\']')\nExpected string: \u001b[32m\"OrangeHRM OS 5.7\u001b[7mwwwwwww\u001b[27m\"\u001b[39m\nReceived string: \u001b[31m\"OrangeHRM OS 5.7\"\u001b[39m\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//p[normalize-space()=\\'OrangeHRM OS 5.7\\']')\u001b[22m\n\u001b[2m    8 × locator resolved to <p data-v-7b563373=\"\" class=\"oxd-text oxd-text--p orangehrm-copyright\">OrangeHRM OS 5.7</p>\u001b[22m\n\u001b[2m      - unexpected value \"OrangeHRM OS 5.7\"\u001b[22m\n",
+                        "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('//p[normalize-space()=\\'OrangeHRM OS 5.7\\']')\nExpected string: \u001b[32m\"OrangeHRM OS 5.7\u001b[7mwwwwwww\u001b[27m\"\u001b[39m\nReceived string: \u001b[31m\"OrangeHRM OS 5.7\"\u001b[39m\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//p[normalize-space()=\\'OrangeHRM OS 5.7\\']')\u001b[22m\n\u001b[2m    8 × locator resolved to <p data-v-7b563373=\"\" class=\"oxd-text oxd-text--p orangehrm-copyright\">OrangeHRM OS 5.7</p>\u001b[22m\n\u001b[2m      - unexpected value \"OrangeHRM OS 5.7\"\u001b[22m\n\n    at F:\\interview_preparation\\Playwright\\tests\\chapter_04\\03_testreports.spec.ts:32:75",
+                        "location": {
+                          "file": "F:\\interview_preparation\\Playwright\\tests\\chapter_04\\03_testreports.spec.ts",
+                          "column": 75,
+                          "line": 32
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 30 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m\"test-2 execution started\"\u001b[39m)\n \u001b[90m 31 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[normalize-space()='OrangeHRM OS 5.7']\"\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 32 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[normalize-space()='OrangeHRM OS 5.7']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m\"OrangeHRM OS 5.7wwwwwww\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 33 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 34 |\u001b[39m })\n \u001b[90m 35 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "F:\\interview_preparation\\Playwright\\tests\\chapter_04\\03_testreports.spec.ts",
+                            "column": 75,
+                            "line": 32
+                          },
+                          "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('//p[normalize-space()=\\'OrangeHRM OS 5.7\\']')\nExpected string: \u001b[32m\"OrangeHRM OS 5.7\u001b[7mwwwwwww\u001b[27m\"\u001b[39m\nReceived string: \u001b[31m\"OrangeHRM OS 5.7\"\u001b[39m\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//p[normalize-space()=\\'OrangeHRM OS 5.7\\']')\u001b[22m\n\u001b[2m    8 × locator resolved to <p data-v-7b563373=\"\" class=\"oxd-text oxd-text--p orangehrm-copyright\">OrangeHRM OS 5.7</p>\u001b[22m\n\u001b[2m      - unexpected value \"OrangeHRM OS 5.7\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 30 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m\"test-2 execution started\"\u001b[39m)\n \u001b[90m 31 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[normalize-space()='OrangeHRM OS 5.7']\"\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 32 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[normalize-space()='OrangeHRM OS 5.7']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m\"OrangeHRM OS 5.7wwwwwww\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 33 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 34 |\u001b[39m })\n \u001b[90m 35 |\u001b[39m\u001b[0m\n\u001b[2m    at F:\\interview_preparation\\Playwright\\tests\\chapter_04\\03_testreports.spec.ts:32:75\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "runing before each test case..\n"
+                        },
+                        {
+                          "text": "test-2 execution started\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-30T15:06:53.332Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\PlaywrightResults\\chapter_04-03_testreports-regressionTesting-test-case---4-chromium\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\PlaywrightResults\\chapter_04-03_testreports-regressionTesting-test-case---4-chromium\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "F:\\interview_preparation\\Playwright\\tests\\chapter_04\\03_testreports.spec.ts",
+                        "column": 75,
+                        "line": 32
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "0e3e9c780be37253158e-511f700a57861b979db2",
+              "file": "chapter_04/03_testreports.spec.ts",
+              "line": 29,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-08-30T15:06:34.271Z",
+    "duration": 33852.698,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}
