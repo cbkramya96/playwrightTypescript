@@ -14,7 +14,8 @@ test.describe("getText and getAttribute value in playwright", () => {
     const finalName=name?.trim();
     expect(finalName).toBe("Login")
     console.log(`name is, ${name}`);
+    console.log(`name is, ${finalName}`);
 
-    await page.getByPlaceholder("Username")
+    await page.getByPlaceholder("Username");
   });
 });
